@@ -66,10 +66,10 @@ jobs:
         # BUG: megalinter API_REPORTER does not push data when using a flavor
         # uses: oxsecurity/megalinter/flavors/java@beta
         # uses: oxsecurity/megalinter/flavors/java@v8.0.0
-        # uses: oxsecurity/megalinter/flavors/documentation@v8.0.0
+        uses: oxsecurity/megalinter/flavors/documentation@v8.0.0
         # uses: oxsecurity/megalinter/flavors/documentation@beta
         # uses: oxsecurity/megalinter@beta
-        uses: oxsecurity/megalinter@v8.0.0
+        # uses: oxsecurity/megalinter@v8.0.0
 
         id: ml
 
